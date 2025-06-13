@@ -54,7 +54,7 @@ Use the search bar at the top of the console to find and enable the following AP
 
 # 🧪 Example: Running a Docker Image (Example: Spec2Tapeout Problems)
 
-> This is just **one example** Docker image for the Spec2Tapeout problems. Other categories will have other Docker images.
+> This is just **one example** Docker image for the Spec2Tapeout problems. Other categories will have other Docker images that can be pulled in the same way as documented in the problem category readmes. 
 
 ---
 
