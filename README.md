@@ -12,7 +12,7 @@ The hackathon features two exciting tracks:
    Solve design tasks using **small language models (SLMs)** on **low-cost laptops** provided at the event.
 
 2. **☁️ Open Challenge**  
-   Use **any GenAI models**, including **large language models (LLMs)** running in the **cloud**.
+   Use **any GenAI models**, including **large language models (LLMs)** running in the **cloud**. For this hackathon we have supprot to Gemini APIs via GCP instances. 
 
 🏆 *Separate prizes* will be awarded to winners in each track!
 
@@ -23,18 +23,18 @@ The hackathon features two exciting tracks:
 Choose from four problem categories:
 
 1. **🛠️ GenAI for Spec2Tapeout (ASU)**  
-   Build an agent that generates RTL and GDS from design specs—automated start-to-finish flow!
+   Build an agent that generates RTL and GDS from design specs—automated start-to-finish flow. 
 
 2. **🔍 GenAI for Design Verification (Google)**  
    Given buggy RTL and specs, create testbenches to catch sneaky logic bugs 🐞⚡.
 
 3. **🌀 Miscellaneous CVDP Problems (NVIDIA)**  
-   Tasks include RTL debugging, testbench integration, design edits, and EDA workflow setup.
+   Different tasks that include RTL debugging, testbench integration, design edits, and EDA workflow setup.
 
 4. **🔧 GenAI for Logic Synthesis (Qualcomm, NXP)**  
    Repair broken gate-level netlists with smart ECO detection using the correct RTL as a reference.
 
-📊 Each category has **multiple problems** with increasing difficulty. Solve as many as you can across categories for **maximum points**. Winners will be named **per category and per track**.
+📊 Each category has **multiple problems** with varying levels of difficulty. Solve as many problems as you can across multiple categories. Winners will be named **per category and per track**.
 
 ---
 
