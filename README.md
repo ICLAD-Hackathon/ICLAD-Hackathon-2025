@@ -46,6 +46,8 @@ Choose from four problem categories:
 - A **tutorial session** will be held before DAC on how to use these tools 🧑‍🏫.
 - Teams may also use their own trained SLMs if desired.
 
+Documentation for using these laptops will be available soon. 
+
 ### 🌐 Open Challenge Track
 
 - Access **Gemini APIs** and **Google Cloud compute resources** 💡☁️.
@@ -53,8 +55,8 @@ Choose from four problem categories:
 - Docs provided for:
   1. 🔧 Setting up Google Cloud instances  
   2. 🐳 Pulling docker images per problem (preloaded with tools + data)  
-  3. 🤖 Querying Gemini APIs from inside docker or directly via GCP  
-
+  3. 🤖 Querying Gemini APIs from inside docker or directly via GCP
+Documentation for this is (here)[https://github.com/ICLAD-Hackathon/ICLAD-Hackathon-2025/blob/main/GCP-infrastructure-setup.md]
 ---
 
 ## 🧪 Evaluation
