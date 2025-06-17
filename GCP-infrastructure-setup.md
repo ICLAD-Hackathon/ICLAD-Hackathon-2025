@@ -83,18 +83,18 @@ docker run -it --rm \
 ```
 
 
-## 🤖 Run Gemini from Docker 
+# 🤖 Run Gemini from Docker 
 
 You may use Gemini APIs either inside the Docker image or directly on the VM.
 
-### ❗️ If running Gemini inside the Docker image  
+## ❗️ If running Gemini inside the Docker image  
 Install the Vertex AI SDK:
 
 ```bash
 pip install --no-cache-dir google-cloud-aiplatform
 ```
 
-### ✅If running Gemini on the VM (outside Docker)  
+## ✅If running Gemini on the VM (outside Docker)  
 No installation is needed â€” the SDK is already available.
 
 ---
