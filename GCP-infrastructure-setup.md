@@ -29,11 +29,12 @@ Use the search bar at the top of the console to find and enable the following AP
 
 1. Navigate to **Compute Engine > VM Instances**.
 2. Click **Create Instance** and configure the following:
+   - **OS and Storage**: Set disk size to 128 GB or larger if required
    - **Machine Type**: Use the default (`e2-medium`), or select a larger type for more power.
    - **Boot Disk**: Click **Change** → Select **Ubuntu 22.04 LTS**.
    - **Firewall**: Check **Allow HTTP traffic** and/or **Allow HTTPS traffic** if needed.
    - **Security**: Under **Access Scopes**, choose **Allow full access to all Cloud APIs**.
-3. Click **Create**.
+4. Click **Create**.
 
 ---
 
