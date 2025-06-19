@@ -7,3 +7,6 @@
 [submodule "problem-categories/Qualcomm-LogicSynthesis-ICLAD25-Hackathon"]
 	path = problem-categories/Qualcomm-LogicSynthesis-ICLAD25-Hackathon
 	url = git@github.com:ICLAD-Hackathon/Qualcomm-LogicSynthesis-ICLAD25-Hackathon
+[submodule "problem-categories/NVIDIA-ICLAD25-Hackathon"]
+	path = problem-categories/NVIDIA-ICLAD25-Hackathon
+	url = git@github.com:ICLAD-Hackathon/NVIDIA-ICLAD25-Hackathon.git
