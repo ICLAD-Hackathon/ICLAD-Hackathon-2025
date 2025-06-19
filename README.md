@@ -45,7 +45,7 @@ Choose from four problem categories:
 - Each team gets a **Qualcomm X-Elite AI laptop** 💼 with pre-installed open SLMs and EDA tools.
 - A **tutorial session** will be held before DAC on how to use these tools 🧑‍🏫.
 - Teams may also use their own trained SLMs if desired.
-Documentation for this is (here)[https://github.com/ICLAD-Hackathon/ICLAD-Hackathon-2025/blob/main/SLM-laptop-setup.md]
+Documentation for [SLM laptop setup is available here](https://github.com/ICLAD-Hackathon/ICLAD-Hackathon-2025/blob/main/SLM-laptop-setup.md)
 
 ### 🌐 Open Challenge Track
 
@@ -55,7 +55,7 @@ Documentation for this is (here)[https://github.com/ICLAD-Hackathon/ICLAD-Hackat
   1. 🔧 Setting up Google Cloud instances  
   2. 🐳 Pulling docker images per problem (preloaded with tools + data)  
   3. 🤖 Querying Gemini APIs from inside docker or directly via GCP
-Documentation for this is (here)[https://github.com/ICLAD-Hackathon/ICLAD-Hackathon-2025/blob/main/GCP-infrastructure-setup.md]
+Documentation for [GCP setup is available here](https://github.com/ICLAD-Hackathon/ICLAD-Hackathon-2025/blob/main/GCP-infrastructure-setup.md)
 ---
 
 ## 🧪 Evaluation
