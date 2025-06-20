@@ -1,7 +1,7 @@
 
 # ☁️ GCP Setup Instructions for ICLAD Hackathon
 
-Follow these steps to create and configure a GCP virtual machine (VM) for the hackathon environment.
+Follow these steps to create and configure a Google Cloud Platform (GCP) virtual machine (VM) for the hackathon environment.
 
 ---
 
@@ -47,6 +47,7 @@ Use the search bar at the top of the console to find and enable the following AP
     sudo apt-get update && sudo apt-get install -y git
     sudo apt-get update && sudo apt-get install -y docker.io
     sudo usermod -aG docker $USER
+    sudo apt-get update && sudo apt-get install -y vim-gtk3
     ```
 
 3. **Close the SSH session**, then **reconnect** by clicking the SSH button again to activate Docker group membership.
