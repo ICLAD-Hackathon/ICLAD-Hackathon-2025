@@ -1,12 +1,12 @@
 [submodule "problem-categories/ASU-Spec2Tapeout-ICLAD25-Hackathon"]
 	path = problem-categories/ASU-Spec2Tapeout-ICLAD25-Hackathon
-	url = git@github.com:ICLAD-Hackathon/ASU-Spec2Tapeout-ICLAD25-Hackathon.git
+	url = https://github.com/ICLAD-Hackathon/ASU-Spec2Tapeout-ICLAD25-Hackathon.git
 [submodule "problem-categories/Google-Verification-ICLAD25-Hackathon"]
 	path = problem-categories/Google-Verification-ICLAD25-Hackathon
-	url = git@github.com:ICLAD-Hackathon/Google-Verification-ICLAD25-Hackathon
+	url = https://github.com/ICLAD-Hackathon/Google-Verification-ICLAD25-Hackathon
 [submodule "problem-categories/Qualcomm-LogicSynthesis-ICLAD25-Hackathon"]
 	path = problem-categories/Qualcomm-LogicSynthesis-ICLAD25-Hackathon
-	url = git@github.com:ICLAD-Hackathon/Qualcomm-LogicSynthesis-ICLAD25-Hackathon
+	url = https://github.com/ICLAD-Hackathon/Qualcomm-LogicSynthesis-ICLAD25-Hackathon
 [submodule "problem-categories/NVIDIA-ICLAD25-Hackathon"]
 	path = problem-categories/NVIDIA-ICLAD25-Hackathon
-	url = git@github.com:ICLAD-Hackathon/NVIDIA-ICLAD25-Hackathon.git
+	url = https://github.com/ICLAD-Hackathon/NVIDIA-ICLAD25-Hackathon.git
