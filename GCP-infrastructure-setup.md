@@ -1,6 +1,7 @@
-# Using the GCP infrastructure via VNC for the ICLAD 2025 Hackathon
+# Using the GCP infrastructure for the ICLAD 2025 Hackathon
 
-## 🔐 Step 1: Connect to the VNC Server
+## Use VMs setup by the organizers directly via VNC
+### 🔐 Step 1: Connect to the VNC Server
 
 - **External IP Address**: _Provided by your admin_
 - **VNC Password**: _Provided by your admin_
@@ -13,7 +14,7 @@
 
 ---
 
-## 💻 Step 2: Open a Terminal Window
+### 💻 Step 2: Open a Terminal Window
 
 Once connected, you'll see the XFCE desktop environment.
 
@@ -22,7 +23,7 @@ Once connected, you'll see the XFCE desktop environment.
 
 ---
 
-## 📂 Step 3: Explore Directory Structure
+### 📂 Step 3: Explore Directory Structure
 
 When you open the terminal and run `ls ~`, you will see several top-level directories and files
 
@@ -42,7 +43,7 @@ iclad_hackathon/
 └── ICLAD-Hackathon-2025/ (Git repo with submodules of the different problem categories)
 ```
 
-## ▶️ Step 4: Run Saved Docker Image with EDA Tools
+### ▶️ Step 4: Run Saved Docker Image with EDA Tools
 
 Run the saved Docker image that contains all EDA tools and mount the `iclad_hackathon` directory:
 
@@ -70,11 +71,16 @@ iVerilog can be run using
 iverilog
 ```
 
-##  ▶️ Step 5: Run Gemini Test from Docker Image
+###  ▶️ Step 5: Run Gemini Test from Docker Image
 
 ```bash
 python3 /workspace/iclad_hackathon/hello_world/test_gemini.py
 ```
+
+## Building your own VM (Optional)
+
+If you would like to build your own VM and set it up exactly like the above VM we have documented instructions here:
+https://github.com/ICLAD-Hackathon/ICLAD-Hackathon-2025/blob/main/create-new-vm.md 
 
 
 
