@@ -6,6 +6,8 @@
 - **External IP Address**: _Provided by your admin_
 - **VNC Password**: _Provided by your admin_
 
+Please email iclad2025-hackathon@googlegroups.com if you do not have a VNC server IP address and password. 
+
 
 1. Open your VNC Viewer (e.g., [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)).
 2. Enter the IP address in the address bar: 
