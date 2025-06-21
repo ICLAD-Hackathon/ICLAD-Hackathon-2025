@@ -1,6 +1,3 @@
-[submodule "problem-categories/Google-Verification-ICLAD25-Hackathon"]
-	path = problem-categories/Google-Verification-ICLAD25-Hackathon
-	url = https://github.com/ICLAD-Hackathon/Google-Verification-ICLAD25-Hackathon
 [submodule "problem-categories/Qualcomm-LogicSynthesis-ICLAD25-Hackathon"]
 	path = problem-categories/Qualcomm-LogicSynthesis-ICLAD25-Hackathon
 	url = https://github.com/ICLAD-Hackathon/Qualcomm-LogicSynthesis-ICLAD25-Hackathon
