@@ -4,3 +4,9 @@
 [submodule "problem-categories/NVIDIA-ICLAD25-Hackathon"]
 	path = problem-categories/NVIDIA-ICLAD25-Hackathon
 	url = https://github.com/ICLAD-Hackathon/NVIDIA-ICLAD25-Hackathon.git
+[submodule "problem-categories/ASU-Spec2Tapeout-ICLAD25-Hackathon"]
+	path = problem-categories/ASU-Spec2Tapeout-ICLAD25-Hackathon
+	url = https://github.com/ICLAD-Hackathon/ASU-Spec2Tapeout-ICLAD25-Hackathon
+[submodule "problem-categories/Google-Verification-ICLAD25-Hackathon"]
+	path = problem-categories/Google-Verification-ICLAD25-Hackathon
+	url = https://github.com/ICLAD-Hackathon/Google-Verification-ICLAD25-Hackathon
