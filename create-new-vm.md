@@ -1,11 +1,11 @@
 
-# â˜ï¸ GCP VM Setup with VNC and Docker for ICLAD Hackathon
+# GCP VM Setup with VNC and Docker for ICLAD Hackathon
 
 This guide provides detailed instructions to launch a GCP virtual machine, install a VNC server, configure the environment, and prepare for the ICLAD Hackathon.
 
 ---
 
-## ðŸ”‘ Step 1: Create a VM Instance on GCP
+## Step 1: Create a VM Instance on GCP
 
 ### 1. Login and Create VM
 - Log in to [Google Cloud Console](https://console.cloud.google.com/) with your username and password.
@@ -37,14 +37,14 @@ This guide provides detailed instructions to launch a GCP virtual machine, insta
 
 ---
 
-## ðŸ’» Step 2: Connect to the VM
+## Step 2: Connect to the VM
 
 - Go to **VM instances** and click the **SSH** button next to your VM.
 - Ensure **Vertex AI API** is enabled (search "Vertex AI API" in the search bar and click **Enable**).
 
 ---
 
-## âš™ï¸ Step 3: Create Setup Scripts
+##  Step 3: Create Setup Scripts
 
 ### 1. `setup_iclad_env.sh`
 
@@ -66,7 +66,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | \
   sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
-https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | I am running a few minutes late; my previous meeting is running over.
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 sudo apt update
@@ -134,14 +134,14 @@ echo "=== Done! Connect using a VNC client to <your-external-ip>:5901 ==="
 
 ---
 
-## ðŸ› ï¸ Step 4: Run Setup
+##  Step 4: Run Setup
 
 ```bash
 chmod +x setup_iclad_env.sh install_vnc_xfce.sh
 ./setup_iclad_env.sh
 ```
 
-- ðŸ” **Close the SSH session and re-open it.**
+- **Close the SSH session and re-open it.**
 - Then run:
 
 ```bash
@@ -153,7 +153,7 @@ chmod +x setup_iclad_env.sh install_vnc_xfce.sh
 
 ---
 
-## ðŸ³ Step 5: Docker Image Setup
+##  Step 5: Docker Image Setup
 
 ### 1. Pull the Docker Image
 
@@ -181,9 +181,9 @@ pip install --no-cache-dir google-cloud-aiplatform
 ```bash
 python3 /workspace/iclad_hackathon/hello_world/test_gemini.py
 ```
+---
 
-
-## ðŸ’¾ Step 6: Save Docker Image
+## Step 6: Save Docker Image
 
 ```bash
 exit
@@ -191,9 +191,9 @@ docker commit iclad_hackathon iclad_hackathon:latest
 # Optional: Save to file
 docker save -o iclad_hackathon.tar iclad_hackathon
 ```
+---
 
-
-## â–¶ï¸ Step 7: Run Saved Docker Image
+##  Step 7: Run Saved Docker Image
 
 ```bash
 docker run -it --rm \
@@ -202,7 +202,7 @@ docker run -it --rm \
 ```
 
 
-## ðŸŽ‰ Done!
+## Done!
 
 You can now develop and run your ICLAD Hackathon code inside a fully configured VM with GUI access via VNC and development support via Docker.
 
